@@ -92,12 +92,21 @@ Window {
             source: "image/giphy.gif"
             anchors.bottomMargin: 10
             anchors.rightMargin: 0
-//            paused: true
+//<<<<<<< HEAD
+////            paused: true
+//            playing: true
+//            speed: 0.5
+//        }
+//    }
+//}
+
+
+
+//=======
+            paused: false
             playing: true
             speed: 0.5
         }
     }
 }
-
-
-
+//>>>>>>> a5d77902c0d657a23c3786e854c34928d9bb2f56
